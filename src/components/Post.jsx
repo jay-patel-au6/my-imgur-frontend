@@ -3,7 +3,6 @@ import './../styles/Post.scss'
 
 export default class Post extends Component {
     render() {
-        console.log(this.props)
         return (
             <div className="Post">
                 <h3>{this.props.title}<span>By {this.props.uploadedBy.userName}</span></h3>

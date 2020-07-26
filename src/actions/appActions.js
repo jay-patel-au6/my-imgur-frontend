@@ -1,6 +1,8 @@
 import { NEWPOST } from './types'
 
-const baseUrl = `http://localhost:8080`
+// const baseUrl = `http://localhost:8080`
+const baseUrl = `https://my-imgur-backend.herokuapp.com`
+
 
 export const newPost = formData => async dispatch => {
     const response = await fetch(`${baseUrl}/newpost`, {

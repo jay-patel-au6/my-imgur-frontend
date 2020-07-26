@@ -1,6 +1,7 @@
 import { DASHBOARD, REGISTER, LOGIN, LOGOUT } from './types'
 
-const baseUrl = `http://localhost:8080`
+// const baseUrl = `http://localhost:8080`
+const baseUrl = `https://my-imgur-backend.herokuapp.com`
 
 export const dashboard = () => async dispatch => {
     const response = await fetch(`${baseUrl}`, {

@@ -12,7 +12,7 @@ export default (state = initialState, action) => {
     const { type, payload } = action
     switch(type) {
         case DASHBOARD:
-            if(payload.user) return {
+            if(!payload.errorMsg) return  {
                 ...state,
                 user: payload.user,
                 posts: payload.posts,
