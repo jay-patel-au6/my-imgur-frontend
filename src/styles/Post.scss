@@ -1,0 +1,23 @@
+.Post {
+    margin-bottom: 40px;
+
+    h3 {
+       span {
+           margin-left: 40px;
+           color: grey;
+           font-size: 1rem;
+       } 
+    }
+
+    .postImgs {
+        img {
+            max-width: 90%;
+            margin: 5px;
+        }
+    }
+
+    .postDetails {
+        font-style: italic;
+        margin-top: 0px;
+    }
+}
